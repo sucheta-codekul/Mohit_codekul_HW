@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin:20px;
+        }
+    </style>
+    <style>
+        th{
+            background-color: gray;
+        }
+    </style>
+    <style>
+        td{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>          
+    <h3>Seminar timetable</h3>
+
+    <table>
+        <tr>
+            <th rowspan=3>Day</th>
+            <th colspan=3>Seminar</th>
+        </tr>
+        <tr>
+            <th colspan=2>Schedule</th>
+            <th rowspan=2>Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan=3>Monday</td>
+            <td rowspan=3>8:00 A.M.</td>
+            <td rowspan=3>5:00 P.M.</td>
+            <td>Introduction to HTML</td>
+        </tr>
+        <tr>
+           <td>Type of Elements<br>
+            <ul>
+            <li>Block Level</li>
+             <li>Inline</li>
+            </ul>
+           </td>
+        </tr>
+        <tr>
+            <td rowspan=3>Tuesday</td>
+            <td>8:00 A.M.</td>
+            <td>11:00 A.M.</td>
+            <td rowspan=2>CSS Selectors</td>
+        </tr>
+        <tr>
+            <td>11:00 A.M.</td>
+            <td>2:00 P.M.</td>
+        </tr>
+        <tr>
+            <td>2:00 P.M.</td>
+            <td>5:00 P.M.</td>
+            <td>Table and List Tags</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 A.M.</td>
+            <td>12:00 P.M.</td>
+            <td>CSS Box Model</td>
+        </tr>
+    </table>
+</body>
+</html>  
